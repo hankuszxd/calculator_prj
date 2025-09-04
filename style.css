@@ -1,0 +1,64 @@
+body{
+    background-color: dimgrey;
+}
+.main{
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+}
+.result{
+    border: 1px solid black;
+    width: 95%;
+    height: 25%;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: rgb(186, 186, 186);
+}
+
+.buttons{
+    border: 1px solid black;
+    width: 95%;
+    height: 70%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(53, 53, 53);
+}
+
+.button{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 20%;
+    height: 17%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+#notNumber{
+    background-color: orange;
+}
+
+#notNumberNotCount{
+    background-color: darkgrey;
+}
+
+#zero{
+    width: 45%;
+}
+
+#display{
+    border: none;
+    background-color: rgb(186, 186, 186);
+    color: white;
+    font-size: 18px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    padding: 10%;
+}
